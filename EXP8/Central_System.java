@@ -1,0 +1,79 @@
+
+
+/**
+ * Class Central_System
+ */
+public class Central_System {
+
+  //
+  // Fields
+  //
+
+  private void product_name;
+  private void product_details;
+  
+  //
+  // Constructors
+  //
+  public Central_System () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of product_name
+   * @param newVar the new value of product_name
+   */
+  private void setProduct_name (void newVar) {
+    product_name = newVar;
+  }
+
+  /**
+   * Get the value of product_name
+   * @return the value of product_name
+   */
+  private void getProduct_name () {
+    return product_name;
+  }
+
+  /**
+   * Set the value of product_details
+   * @param newVar the new value of product_details
+   */
+  private void setProduct_details (void newVar) {
+    product_details = newVar;
+  }
+
+  /**
+   * Get the value of product_details
+   * @return the value of product_details
+   */
+  private void getProduct_details () {
+    return product_details;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void print_bill()
+  {
+  }
+
+
+  /**
+   */
+  public void validate_card()
+  {
+  }
+
+
+}
